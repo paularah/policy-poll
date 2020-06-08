@@ -1,0 +1,46 @@
+{
+  "name": "policypolls",
+  "version": "1.0.0",
+  "description": "App polls voters to find what policies are important to them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "build": "rm -rf && tsc -p ./",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcwebguru/policypolls.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcwebguru/policypolls/issues"
+  },
+  "homepage": "https://github.com/dcwebguru/policypolls#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.26.0",
+    "moment-timezone": "^0.5.31",
+    "mongoose": "^5.9.18",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/cors": "^2.8.6",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.6",
+    "@types/helmet": "0.0.47",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/lodash": "^4.14.155",
+    "@types/mongoose": "^5.7.22",
+    "@types/validator": "^13.0.0"
+  }
+}
